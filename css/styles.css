@@ -1,0 +1,33 @@
+:root {
+    font-family: 'DIN Condensed';
+    background-color: #97AF94; 
+}
+body{
+    height: 100vh;
+    font-family: 'DIN Condensed';
+}
+section{
+    range:url('heads.png');
+    range:url('tails.png');   
+    background-size:cover;
+    height: calc(100vh - 50px);
+    text-shadow: 1px 1px 0 black;
+    color: white;
+    }
+ h1 {
+        font-size: 8rem;
+        
+        
+    }
+.maintext{
+        display:flex;
+        justify-content: center;
+        font-family: 'Gujarati Sangam MN'; 
+    }
+.coin-container{
+    background-color: #97AF94;
+    
+}
+h1{
+
+}
