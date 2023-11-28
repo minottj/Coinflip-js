@@ -8,7 +8,7 @@
         /> 
         <link
             rel="stylesheet"
-            href="style.css"
+            href="css/styles.css"
         /> 
         <title>Coin Toss</title> 
     </head> 
@@ -16,19 +16,17 @@
         <div class="coin-container"> 
             <h1 class="title"> 
             <h1>Pick a Side</h1>
+            <button id="heads" onclick="runGame('heads')"></button>
+            <button id="tails" onclick="runGame('tails')"></button>
             <main class=" Heads or Tails">
             
             <h3>Game Results</h3>
             <div class="coin" id="coin"> 
-            <img src="heads.png"/>
-            <img src="tails.png"/>
+            
             </div> 
-            <button id="toss-button"> 
-                Toss Coin 
-            </button> 
         </div> 
         <p class="result"></p> 
-        <script src="script.js"></script> 
+        <script src="js/page.js"></script> 
     </body> 
 </html> 
 
