@@ -30,12 +30,12 @@ section{
     text-shadow: 1px 1px 0 #4682B4;
     color: white;
     }
-h1{
+h2{
     font-size: 5rem; 
         
     }
 h3{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .maintext{
         display:flex;
@@ -45,10 +45,14 @@ h3{
 #flip-button{
         background:#FFFFFF;
         color: #4682B4;
+        margin-top: 55px;
+        margin-bottom:40px;
 }
 #reset-button{
         background:#FFFFFF;
         color: #4682B4;
+        margin-top: 55px;
+        margin-bottom:40px;
 }
 .stats{
         display: flex;
@@ -82,10 +86,3 @@ button{
     border-radius: 10px;
     box-shadow: 15px 30px 35px rgba (0,0,0,1)
 }
-
-@keyframes spin-tails {
-    0%{
-        transform: rotateX(0);
-    }
-}
-
