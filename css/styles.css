@@ -41,7 +41,39 @@ h3{
         display:flex;
         justify-content: center;
         font-family: 'Gujarati Sangam MN'; 
-    }
+}
+#flip-button{
+        background:#FFFFFF;
+        color: #4682B4;
+}
+#reset-button{
+        background:#FFFFFF;
+        color: #4682B4;
+}
+.stats{
+        display: flex;
+        color: #ffffff;
+        font-weight: 500;
+        padding:20px;
+        margin-top: 55px;
+        margin-bottom:40px;
+        box-shadow: 0 0 20px rgba(0,139,253,0.25);
+}
+.stats p:nth-last-child(1){
+        margin-left: 50%;
+}   
+.buttons{
+    display: flex;
+    justify-content:space-around;
+}
+button{
+    width: 200px;
+    padding: 20px 0;
+    border:none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .coin-container{
     background-color: #ADD8E6;
     width: 700px;
@@ -56,35 +88,4 @@ h3{
         transform: rotateX(0);
     }
 }
-.buttons{
-    display: flex;
-    justify-content:space-around;
-}
-button{
-    width: 200px;
-    padding: 20px 0;
-    border:none;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-#flip-button{
-    background:#FFFFFF;
-    color: #4682B4;
-}
-#reset-button{
-    background:#FFFFFF;
-    color: #4682B4;
-}
-.stats{
-    display: flex;
-    color: #ffffff;
-    font-weight: 500;
-    padding:20px;
-    margin-top: 55px;
-    margin-bottom:40px;
-    box-shadow: 0 0 20px rgba(0,139,253,0.25);
-}
-.stats p:nth-last-child(1){
-    margin-left: 50%;
-}
+
