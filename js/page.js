@@ -5,39 +5,24 @@ function runGame(x) {
 
 
     console.log(randNumber);
+    
+    if(randNumber===1){
+        flipresult = 'tails';
+    } else {
+        flipresult ='heads';
+    }
+
+    let gameResult;
+    if (playerChoice === flipResult){
+          gameResult = 'WIN'
+          } else {
+          flipResult = 'LOSS'
+        }
+
+     console.log(flipResult);
+
+     let predicition = documentElementById ('prediction');
+     let flip = documentElementById ('flip');
+     let result = documentElementById ('flip');
+     result.innerText = gameResult;
 }
-
-
-// function runGame(x) {
-//     let x = playerChoice;
-
-//     let randNumb = Math.floor(Math.random() * 2 + 1);
-
-//     let flipResult; 
-
-
-
-//     if (randNumb === 1){
-//         flipResult = 'tails';
-//     } else {
-//         flipResult = 'heads';
-//     }
-
-//     let gameResult;
-
-//     if (playerChoice === flipResult){
-//         gameResult = 'WIN'
-//     } else {
-//         flipResult = 'LOSS'
-//     }
-
-
-//     console.log(flipResult);
-// }
-
-// let predicition = document.getElementById('prediction');
-
-// let flip = document.getElementById('flip');
-
-// let result = document.getElementById('result');
-// result.innerText = gameREsult;
