@@ -1,35 +1,41 @@
 :root {
     font-family: 'DIN Condensed';
-    background-color: #97AF94; 
+    background-color: #4682B4; 
 }
 body{
     height: 100vh;
-    font-family: 'DIN Condensed';
+    font-family: 'Open Sans';
+    text-align: center;
+    color: #4682B4;
+
 }
 #heads {
     background-image: url('../heads.png');
     width: 200px;
     height: 200px;
     background-size:cover;
+    position: center;
+    
 }
 #tails {
     background-image: url('../tails.png');
     width: 200px;
     height: 200px;
     background-size:cover;
+   
 }
 section{
     background-size:cover;
     height: calc(100vh - 50px);
-    text-shadow: 1px 1px 0 black;
+    text-shadow: 1px 1px 0 #4682B4;
     color: white;
     }
- h1{
-    font-size: 10rem; 
+h1{
+    font-size: 5rem; 
         
     }
 h3{
-    font-size: 10rem;
+    font-size: 5rem;
 }
 .maintext{
         display:flex;
@@ -37,9 +43,48 @@ h3{
         font-family: 'Gujarati Sangam MN'; 
     }
 .coin-container{
-    background-color: #97AF94;
-    
+    background-color: #ADD8E6;
+    width: 700px;
+    padding: 35px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 15px 30px 35px rgba (0,0,0,1)
 }
-h1{
 
+@keyframes spin-tails {
+    0%{
+        transform: rotateX(0);
+    }
+}
+.buttons{
+    display: flex;
+    justify-content:space-around;
+}
+button{
+    width: 200px;
+    padding: 20px 0;
+    border:none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#flip-button{
+    background:#FFFFFF;
+    color: #4682B4;
+}
+#reset-button{
+    background:#FFFFFF;
+    color: #4682B4;
+}
+.stats{
+    display: flex;
+    color: #ffffff;
+    font-weight: 500;
+    padding:20px;
+    margin-top: 55px;
+    margin-bottom:40px;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+}
+.stats p:nth-last-child(1){
+    margin-left: 50%;
 }
