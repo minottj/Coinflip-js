@@ -15,25 +15,20 @@
     <body> 
         <div class="coin-container"> 
             <h1 class="title"> 
-            <h2>Pick a Side</h2>
+            <h2>Pick a Side:</h2>
             <button id="heads" onclick="runGame('heads')"></button>
             <button id="tails" onclick="runGame('tails')"></button>
             <main class=" Heads or Tails">
 
             <div class="coin" id="coin"> 
-                <div class ="buttons">
-                    <button id="flip-button">Flip Coin</button>
-                    <button id="reset-button">Reset</button>
-                </div>
-            <h3>Game Results</h3>
-                <div class="stats">
-                  <p id="heads-count">Heads:0</p>
-                  <p id="tails-count">Tails:0</p>
-                  </div>
+            <p>You chose: <span id="prediction"></span></p>
+            <p>The result was: <span id="flip"></span></p> 
+            <p>That's a: <span id="result"></span></p> 
+
 
 
             </div> 
-        <p class="result"></p> 
+            
         <script src="js/page.js"></script> 
     </body> 
 

@@ -47,24 +47,6 @@ h3{
         color: #4682B4;
         margin-top: 55px;
         margin-bottom:40px;
-}
-#reset-button{
-        background:#FFFFFF;
-        color: #4682B4;
-        margin-top: 55px;
-        margin-bottom:40px;
-}
-.stats{
-        display: flex;
-        color: #ffffff;
-        font-weight: 500;
-        padding:20px;
-        margin-top: 55px;
-        margin-bottom:40px;
-        box-shadow: 0 0 20px rgba(0,139,253,0.25);
-}
-.stats p:nth-last-child(1){
-        margin-left: 50%;
 }   
 .buttons{
     display: flex;
@@ -85,4 +67,10 @@ button{
     margin: 100px auto;
     border-radius: 10px;
     box-shadow: 15px 30px 35px rgba (0,0,0,1)
+}
+.coin{
+    font-family: 'Open Sans';
+    text-align: center;
+    color: #4682B4;
+    font-size: 2rem;
 }
